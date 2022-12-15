@@ -8,7 +8,8 @@ import Card from "../components/Card"
 const Home = () => {
   return (
     <div className='root'>
-        <div id='newsletter'>
+        
+        <section id='newsletter'>
             <div className='container'>
                 <h1>Subscribe To Our Newsletter</h1>
                 <form>
@@ -16,14 +17,17 @@ const Home = () => {
                     <button type= "submit" className="button_1">Subscribe</button>
                 </form>
             </div>
-        </div>
-        <div id="boxes">
+        </section>
+        <div id='showcase'>
+        <section id="boxes">
             <div className="container">
                 <Card src={html} title="HTML5 Markup" url="html"/>
                 <Card src={css} title="CSS3 Styling" url="css"/>
                 <Card src={logo} title="Graphic Design" url="logo"/>
             </div>
+        </section>
         </div>
+        
 
     </div>
   )

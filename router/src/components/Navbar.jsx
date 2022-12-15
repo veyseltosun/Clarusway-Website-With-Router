@@ -1,8 +1,38 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import "../App.css";
+
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <header>
+        <div className='container'>
+            <div id='branding'>
+                <h1>
+                    <span className='hightlight'>Clarusway</span> Web Desing
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li className='current'>
+                        <Link to="/about">About</Link>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <Link to="/services">Services</Link>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
   )
 }
 
