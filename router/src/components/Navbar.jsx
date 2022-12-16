@@ -9,7 +9,7 @@ function Navbar() {
         <div className='container'>
             <div id='branding'>
                 <h1>
-                    <span className='hightlight'>Clarusway</span> Web Desing
+                    <span className='highlight'>Clarusway</span> Web Design
                 </h1>
             </div>
             <nav>
